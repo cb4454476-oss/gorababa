@@ -1,5 +1,4 @@
-
-    // Automatically calculate next Independence Day (August 15)
+// Automatically calculate next Independence Day (August 15)
     const today = new Date();
     let year = today.getFullYear();
     let endDate = new Date(`August 15 ${year} 00:00:00`);
