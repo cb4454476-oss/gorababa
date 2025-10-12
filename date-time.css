@@ -1,0 +1,28 @@
+.clock-widget {
+  background-color: #b52000;
+  color: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  box-shadow: 0 0 10px rgba(0,0,0,0.4);
+  max-width: 100%;
+}
+
+.clock-widget #clock {
+  font-size: 2em;
+  margin-bottom: 5px;
+}
+
+.clock-widget #calendar {
+  font-size: 1em;
+}
+
+@media (max-width: 400px) {
+  .clock-widget #clock {
+    font-size: 5vw;
+  }
+  .clock-widget #calendar {
+    font-size: 3.5vw;
+  }
+}
