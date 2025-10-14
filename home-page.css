@@ -1,0 +1,35 @@
+
+    .gorababa-post {
+      font-family: "Segoe UI", Arial, sans-serif;
+      line-height: 1.7;
+      color: #333;
+      background: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    }
+    .gorababa-post h2,
+    .gorababa-post h3 {
+      color: #b52000;
+      font-weight: 700;
+      margin-top: 25px;
+      border-left: 5px solid #b52000;
+      padding-left: 10px;
+    }
+    .gorababa-post p { margin: 10px 0 15px; }
+    .gorababa-post ul { list-style: none; padding: 0; }
+    .gorababa-post ul li {
+      background: #fff5f3;
+      margin: 6px 0;
+      padding: 8px 12px;
+      border-left: 3px solid #b52000;
+      border-radius: 6px;
+      transition: background 0.3s;
+    }
+    .gorababa-post ul li:hover { background: #ffe8e4; }
+    .gorababa-post a {
+      color: #b52000;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    .gorababa-post a:hover { text-decoration: underline; }
