@@ -33,3 +33,28 @@
       font-weight: 600;
     }
     .gorababa-post a:hover { text-decoration: underline; }
+  
+.gorababa-dropdown {
+    width: 100%;
+    max-width: 300px;
+    padding: 10px 15px;
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-size: 16px;
+    color: #b52000;
+    background: #fff5f3;
+    border: 2px solid #b52000;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s, box-shadow 0.3s;
+    margin: 10px 0 20px 0;
+}
+
+.gorababa-dropdown:hover {
+    background: #ffe8e4;
+    box-shadow: 0 2px 6px rgba(181, 32, 0, 0.3);
+}
+
+.gorababa-dropdown option {
+    color: #333;
+    background: #fff;
+}
